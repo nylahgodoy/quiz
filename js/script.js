@@ -12,3 +12,7 @@ $(document).ready(function() {
     });
 
 });
+
+function ques1(winter, spring, summer, fall){
+    
+}
