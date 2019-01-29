@@ -19,7 +19,7 @@ function ques1(season){
     if (season === "winter"){
     score = score + "4"
     return score;
-} else if (season === "summer")
+} else if (season === "summer"){
     score = score + "2"
     return score; 
 }
@@ -30,7 +30,7 @@ function ques2(time){
     if(time === "evening"){
     scoreTwo = scoreTwo + "4";
     return score;
-} else if (time === "morning")
+} else if (time === "morning"){
     scoreTwo = scoreTwo + "2"
     return scroreTwo;
 }
@@ -41,7 +41,7 @@ function ques3(element){
     if (element === "earth"){
     scoreThree = scoreThree + "4"
     return scoreThree; 
-} else if (element === "fire")
+} else if (element === "fire"){
     scoreOne = scoreThree + "2"
     return scoreThree; 
 }
@@ -52,15 +52,34 @@ function ques4(color){
     if (color === "yellow"){
     scoreFour = scoreFour + "4"
     return scoreFour;
-} else if (color === "black")
-    scoreFour = scoreFour + "2"
+} else if (color === "black"){
+    scoreFour = scoreFour + 2
     return scoreFour; 
 }
 
-totalScore = console.log()
+var totalScore = score + scoreTwo + scoreThree + scoreFour;
+console.log()
+    if(totalScore >10){
+    alert("You are Damon")
+    } else{
+        alert("You are Stefan")
+    }
+var userInput1;
+var userInput2;
+var userInput3;
+var userInput4;
+    
+$(button).click(function(){
+    userInput1=$("#question1").val();
+    userInput2=$("#question2").val();
+    userInput3=$("#question3").val();
+    userInput4=$("#question4").val();
+    totalScore(userInput1, userInput2, userInput3, userInput4);
+});
 
-function 
-
+function totalScore( ques1, ques2, ques3, ques4 )
+    return $("#message").html("Here is your"+ " "+ "<h1>"+ " " +ing1 +" "+"</h1>"+ " " +ing2+ " "+ ing3+ " "+ "sandwhich")
+);}
 
 
 
