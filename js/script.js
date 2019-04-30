@@ -53,16 +53,17 @@ function ques4(color){
     scoreFour = scoreFour + "4"
     return scoreFour;
 } else if (color === "black"){
-    scoreFour = scoreFour + 2
+    scoreFour = scoreFour + 2;
     return scoreFour; 
+}
 }
 
 var totalScore = score + scoreTwo + scoreThree + scoreFour;
 console.log()
     if(totalScore >10){
-    alert("You are Damon")
+    alert("You are Damon");
     } else{
-        alert("You are Stefan")
+        alert("You are Stefan");
     }
 var userInput1;
 var userInput2;
@@ -77,9 +78,9 @@ $(button).click(function(){
     totalScore(userInput1, userInput2, userInput3, userInput4);
 });
 
-function totalScore( ques1, ques2, ques3, ques4 )
-    return $("#message").html("Here is your"+ " "+ "<h1>"+ " " +ing1 +" "+"</h1>"+ " " +ing2+ " "+ ing3+ " "+ "sandwhich")
-);}
+// var Scoring = getScore() + getScore1() + getScore2() + getScore3() + getScore4();
+// function totalScore( ques1, ques2, ques3, ques4 )
+// });
 
 
 
